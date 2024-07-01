@@ -1,0 +1,238 @@
+<style>
+    .image-container{
+        position: relative;
+        text-align: left;
+        color: black;
+    }
+    .image-container img{
+        width: 100%;
+    }
+    .container-title{
+        position:absolute;
+        top:50%;
+        left:30%;
+        padding:10px;
+        border-radius: 5px;
+        transform: translate(-50%, -50%);
+        max-width: 300px;
+        padding:30px;
+    }
+    .container-title .text1{
+        font-size: 25px;
+    }
+    .container-title button{
+        background-color: rgb(226, 59, 198);
+        border: none;
+        padding:10px;
+        color: white;
+    }
+    .image-text{
+        position: relative;
+        text-align: left;
+        display: flex;
+        background-color: rgb(54, 211, 211);
+    }
+    .image-text img{
+        width: 50%;
+    }
+    .text-body{
+        padding:170px;
+    }
+    .text-body .t1{
+        font-size: 25px;
+    }
+    .text-body button{
+        background-color: rgb(54, 211, 211);
+        border: 2px solid white;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: white;  
+    }
+
+    .cards-main{
+        position: relative;
+        text-align: left;
+        background-color: rgb(169, 158, 254);
+        padding-top: 1cm;
+        color: white;
+    }
+    .cards-main a{
+        color: white;
+    }
+    .cards-main h1{
+        text-align: center;
+    }
+    .card-row{
+        display: flex;
+        justify-content: space-around;
+        padding: 2cm;
+    }
+    .card-row img{
+        width: 100%;
+    }
+    .card-row .card1{
+        border: 2px solid white;
+    }
+    .card-row .card2{
+        border: 2px solid white;
+        margin-left: 20px;
+    }
+    .card1 .info-text{
+        padding: 1cm;
+    }
+    .card2 .info-text{
+        padding: 1cm;
+    }
+    .main-grid{
+        display: flex;
+        margin-left:4cm;
+        margin-right: 4cm;
+        border: 0.1px solid black;
+    }
+    .main-grid .row-images{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .main-grid .row-images img{
+        width: 90px;
+    }
+    .main-grid .r2 img{
+        height: auto;
+        width: 90%;
+        z-index: 1;
+    }
+    .main-grid .r1 .content{
+        border: 0.1px solid black;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 18px;
+    }
+    .main-grid .r1 .h{
+        border: 0.1px solid black;
+        padding-left: 40px;
+        font-size: 23px;
+    }
+    .main-grid .r1 .img1,
+    .main-grid .r1 .img2,
+    .main-grid .r1 .img3{
+        border: 0.1px solid black;
+        flex: 1;
+        padding: 20px;
+    }
+    .main-grid .r2{
+        border: 0.1px solid black;
+        
+    }
+
+
+</style>
+<body>
+    <div class="image-container">
+        <img src="https://www.shutterstock.com/image-photo/makeup-professional-cosmetics-on-pink-260nw-1398700589.jpg">
+        <div class="container-title">
+            <p>Style Treat Play</p>
+            <div class="text1">
+                <p>Styles you love. Clean ingredients you trust.</p>
+            </div>
+            <div class="text2">
+                <p>Meet <b>Style + Treat</b>, our neweat high performance, naturally derived styling products.</p>
+            </div>
+            <div>
+                <button>Shop me</button>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="image-text">
+        <img src="https://cdn.shopify.com/s/files/1/0905/3204/files/nancy-5050-desktop_748ea4ae-ae2d-46f9-b611-fe3ffefdd513.jpg?v=1719143169?quality=75">
+        <div class="text-body">
+            <p>our story</p>
+            <div class="t1">
+                <p>Clean chemistry has been a part of out DNA since day one</p>
+            </div>
+            <div class="t2">
+                <p><b>Our founder and CEO, Nancy Twine,</b>  carries on the legacy of her mother, a doctor and chemist who knew that you could create powerful and effective beauty products from natural ingredients.</p>
+            </div>
+            <div>
+                <button>learn more</button>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br>
+
+    <div class="cards-main">
+        <h1>High performance hair jouneys</h1>
+        <div class="card-row">
+            <div class="card1">
+                <img src="https://cdn.shopify.com/s/files/1/0905/3204/files/homepage-testimonial-jheri_b51a7e82-3f57-4e2e-ac3d-9b806c0409a4.jpg?v=1680818145">
+                <div class="info-text">
+                    <p><b>“My scalp can be very dry or oily. I love this because it helps balance everything out. It’s definitely a top 3 shampoo for me!”</b></p>
+                    <div class="by">
+                        <p>jheri @<b>jheri_</b></p>
+                        <p>Scalp Revival Micro-exfoliating Shampo</p>
+                        <br>
+                        <p><a href="https://www.briogeohair.com/">shop me</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card2">
+                <img src="https://cdn.shopify.com/s/files/1/0905/3204/files/homepage-testimonial-4up_a02847d7-b1aa-47db-ac30-b8ab17cc9f1e.jpg?v=1680817602">
+                <div class="info-text">
+                    <p><b>“My scalp can be very dry or oily. I love this because it helps balance everything out. It’s definitely a top 3 shampoo for me!”</b></p>
+                    <div class="by">
+                        <p>jheri @<b>jheri_</b></p>
+                        <p>Scalp Revival Micro-exfoliating Shampo</p>
+                        <br>
+                        <p><a href="https://www.briogeohair.com/">shop me</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br>
+    <div class="main-grid">
+        <div class="r1">
+            <div class="h">
+                <h2>The Briogeo Blocklist</h2>
+            </div>
+            <div class="content">
+                <p>We exceed the rigorous product standards required in the European Union, meaning we’re serious about providing safe haircare solutions for all.</p>
+                <p><b>6-Free™ haircare means:</b></p>
+                <ul>
+                    <li>no harir sulphates</li>
+                    <li>no silicons</li>
+                    <li>no parabens</li>
+                    <li>no phthalates</li>
+                    <li>no dea</li>
+                    <li>no artificial dyes</li>
+                </ul>
+            </div>
+            <div class="row-images">
+                <div class="img1">
+                    <img src="https://cdn.shopify.com/s/files/1/0905/3204/files/BRIO-FPO-Icons_Vegan.svg?v=1677068330">
+                    <p>vegan</p>
+                </div>
+                <div class="img2">
+                    <img src="https://cdn.shopify.com/s/files/1/0905/3204/files/ICON_Gluten-Free_160x160_gray.png?v=1677700025">
+                    <p>gluten free</p>
+                </div>
+                <div class="img2">
+                    <img src="https://cdn.shopify.com/s/files/1/0905/3204/files/BRIO-FPO-Icons_Leaping-Bunny.svg?v=1677068398">
+                    <p>leaping bunny certified</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="r2">
+            <img src="https://cdn.shopify.com/s/files/1/0905/3204/files/homepage-blocklist-goop_687bef2d-8c67-4687-8489-c35506092871.png?v=1681223496&width=3840&quality=75">
+        </div>
+    </div>
+</body>
